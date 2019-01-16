@@ -1,0 +1,23 @@
+
+.tabs { overflow:hidden;}
+.tabs .tab { float:left; width:75%; color:#484848; font-size:14px; line-height:28px; padding-left:15px}
+
+
+.tabs .tab-menu {float:left; width:25%; line-height:22.11px; text-transform:uppercase;}
+
+.tabs .tab-menu a { text-decoration:none; display:block; color:#c7c6c5;background: 95% center;}
+.tabs .tab-menu a span.c1{ color:#ff6c00;}
+.tabs .tab-menu a:hover,
+.tabs .tab-menu a.active { color:#484848; background: url(../../images/arrow2.jpg) no-repeat 90% center;}
+.tabs .tab-menu p{font-size:12px}
+
+
+
+
+
+
+
+
+
+
+

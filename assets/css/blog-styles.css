@@ -1,0 +1,89 @@
+
+h1,
+h2,
+h3,
+h4, 
+h5,
+h6{font-weight:normal}
+
+.spacing-t{padding-top: 30px;}
+.spacing-b{padding-bottom: 30px;}
+.spacing-l{padding-left: 30px;}
+.spacing-r{padding-right: 30px;}
+
+.read-more{border-radius: 0px 0px 5px 5px; }
+.read-more:hover{background: #000000;}
+.read-more a{color: #fff; text-transform: uppercase; font-size: 13px; line-height: 24px; display:block; padding:10px 15px; font-weight:700; text-align:center}
+.read-more a:hover{color: #ffffff; text-decoration: none;}
+.image-spacing{padding-bottom: 5px;}
+.no-border{border-bottom: none !important;}
+.go{position:absolute; right:10px; top:5px; cursor:pointer}
+
+/* ==========================================================================
+Menu custom styles starts here
+========================================================================== */
+
+
+/* ==========================================================================
+General custom styles starts here
+========================================================================== */
+.featured-blocks{background:#F0F0F0; border-radius: 0 0 5px 5px; margin-bottom: 60px; }
+.v-divider{background: url(../img/v-shadow.png)no-repeat right 0;}
+.h-divider{background: url(../img/h-shadow.png)no-repeat center; }
+.featured-blocks .block{text-align: center; padding-top: 25px; padding-bottom: 35px;}
+.featured-blocks .block h1{color: #f85c5e; font-size: 17px; line-height: 24px; text-transform: uppercase; padding-top: 15px;     font-family: 'Oswald', sans-serif; font-weight:500
+}
+.featured-blocks .block [class^="fw-icon-"] {font-size: 65px; color: #000000;}
+.featured-blocks .block [class^="fw-icon-"]:hover{ color: #f85c5e;}
+.featured-blocks .block p{color: #979797; font-size: 13px; line-height: 22px; text-decoration: underline;}
+.featured-blocks .block .block-title{}
+.featured-blocks .block .block-content{}
+
+.general-posts{overflow: hidden; margin-bottom: 25px;}
+.user-info{padding:15px 15px 20px 15px; border-radius: 5px 5px 0 0; background:#F0F0F0;}
+.user-info img{width: 100%;}
+
+.user-info h1{color: #000000; font-size:17px; line-height: 24px; padding-bottom: 0; font-family: 'Oswald', sans-serif; font-weight:400; margin-top:0}
+
+.user-info p{color:#222; font-size: 13px; line-height: 22px;}
+
+
+/* ==========================================================================
+Sidebar custom styles starts here
+========================================================================== */
+.sidebar{padding: 20px; padding-top: 25px; background:#F0F0F0; border-radius: 5px; overflow: hidden; margin-bottom: 25px;width:100%}
+.general-posts {}
+.general-posts p{margin:0}
+.sidebar h1{color: #000000; font-size: 25px; line-height: 24px; text-transform: uppercase; font-weight: normal; margin-top:0; font-family: 'Oswald', sans-serif; font-weight:500}
+
+.sidebar .custom-input input{width: 75%;}
+.sidebar .custom-input .btn{width: 25%;}
+.sidebar .search-form{padding: 15px 0; margin-bottom: 0;}
+.sidebar .search-form input{ border-right: 0; background: #f7f7f7; color: #b5bcbe; 
+						 padding: 7px; line-height: 15px; 
+						padding-left: 10px; padding-right: 22px; border: none;}
+.sidebar .search-form .input-append .btn{border-radius: 0;  background-image: none !important;
+									 background: #f7f7f7; padding: 4px 0;
+									padding-right: 8px; border-radius: 0 5px 5px 0;  border: none;}
+.sidebar .search-form [class^="fw-icon-"]{color: #f85c5e; font-size: 19px; margin-left: 4px;}
+.sidebar .input-append{margin-top: 10px; position:relative}
+.sidebar input{border: none; background: #ffffff; box-shadow: none;width:100%}
+.sidebar  [class^="fw-icon-"]{color: #f85c5e;}
+.sidebar .input-append .add-on{border:none; padding: 5px;}
+
+
+.sidebar-links{}
+.sidebar ul{margin: 0; margin-top: 15px; padding:0}
+.sidebar ul li{border-bottom:1px dotted #c4c4c4;padding-left: 15px; list-style: none; margin:0;position:relative;}
+.sidebar ul li a{color: #222; font-size:15px; padding:10px 10px 10px 0; display:block;}
+.sidebar ul li a::before{content:'\f0da '; font-family:'FontAwesome'; position:absolute; left:0;}
+
+.sidebar ul li a:hover{color:#02569d; text-decoration: none;}
+
+.sidebar-posts{padding: 20px 0;  border-bottom: 1px solid #ebede8; overflow: hidden;}
+.sidebar-posts h1{font-size: 13px; line-height: 22px; color: #f85c5e; text-transform: uppercase;}
+.sidebar-posts img{width: 35px; padding: 0; margin-right: 15px; float: left; }
+.sidebar-posts p{color: #979797; font-size: 13px; line-height: 22px; text-decoration: underline; padding-bottom: 0;}
+
+
+.blog-two .col-md-8 h2{font-family: 'Oswald', sans-serif; font-weight:500; margin-bottom:5px}

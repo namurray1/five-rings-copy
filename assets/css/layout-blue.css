@@ -1,0 +1,69 @@
+#filters {
+	margin:1%;
+	list-style:none;
+}
+
+#filters li { display:inline-block}
+
+#filters li span {
+	display: block;
+	padding:5px 20px;
+	text-decoration:none;
+	color:#666;
+	cursor: pointer;
+}
+#filters li span.active {
+background: #134976!important;
+color:#fff;
+}
+
+
+
+
+#portfoliolist .portfolio {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+width:31.333%;
+margin:1% 1% 1% 1% ;
+display:none;
+float:left;
+}
+
+#portfoliolist .portfolio-2 {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+width: 22%;
+margin:1% 1% 1% 1% ;
+display:none;
+float:left;
+}
+
+#portfoliolist .portfolio { position:relative; height:auto;}
+
+#portfoliolist2 .portfolio {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+width: 31%;
+margin:1% 1% 5% 1% ;
+float:left;
+}
+
+#portfoliolist2 .portfolio { position:relative; height:auto;}
+
+
+
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+
+ #portfoliolist .portfolio {
+ width:48%;
+ margin:5px 3px 25px!important;
+}
+}
+
+@media only screen and (max-width: 480px) {.page_top_wrap .page_title { font-size:27px; margin-bottom:20px}}

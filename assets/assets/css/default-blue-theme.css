@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    GYM Theme
+Version:    1.0
+Last change:    27.03.2017
+Primary use:    MultiPurpose Template  
+-------------------------------------------------------------------
+
+[Table of contents]
+
+1. Body
+2. Header / #header
+3. Navigation / .main-nav
+4. Menu Tabs / .nav-tabs
+5. Owl Carousel / .owl-wrapper
+6. Image Carousel / .image-carousel
+7. Gallery lightbox / .lightbox-gallery
+9. Google Map / #location
+11. Content / .page-section
+12. Footer / .footer
+
+-------------------------------------------------------------------
+
+[Color codes]
+Body-Font:  	#999fa2 {Grey}
+Background:		#ffffff (white)
+Content:		#777 (light black)
+
+a (standard):	#888 (dark grey)
+a (visited):	#134976 (blue)
+a (active):	 	#134976 (blue)
+ 
+-------------------------------------------------------------------
+
+Body copy:			14px Open sans,sans-serif;
+Headers:			48px, 700, Open sans,sans-serif;
+Input, textarea:	14px Open sans,sans-serif;
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+
+-------------------------------------------------------------------*/
+
+@import url('../js/revolution-slider/css/layout2.css');
+@import url('../css/style-v3.css');
+@import url('../css/bootstrap.min.css');
+@import url('../css/full-slider.css');
+@import url('../css/style-blue.css');
+@import url('../css/skin-blue.css');
+@import url('../css/shortcodes.css');
+@import url('../css/footer.css');
+@import url('../css/skin-responsive.css');
+@import url('../js/owl-carousel/owl.theme.css');
+
+@import url('../css/anim-border.css');
+@import url('../css/component2.css');
+@import url('../js/slider/owl-slider.css');
+@import url('../js/slider/style.css');
+@import url('../js/slider/custom.css');
+
+@import url('../css/blogs.css');
+@import url('../css/input-hover.css');
+@import url('../css/prettyPhoto.css');
+@import url('../css/codes.css');
+@import url('../css/responsive.css');
+
+/*------------------------------css ends here-------------------------------------*/

@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h3.hdg {
+    font-size: 1.6em;
+    color: #202020 !important;
+    font-weight:bold;
+	text-transform:uppercase;
+}
+.show-grid [class^=col-] {
+	background: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+	line-height: 2em;
+	border: 10px solid #f0f0f0;
+}
+.show-grid [class*="col-"]:hover {
+	background: #e0e0e0;
+}
+.xs h3, h3.m_1{
+	color:#000;
+	font-size:1.7em;
+	font-weight:300;
+	margin-bottom: 1em;
+}
+.grid_3 p{
+	color: #555;
+	font-size: 0.85em;
+	margin-bottom: 1em;
+	font-weight: 300;
+}
+.grid_4{
+	background:none;
+	margin-top:30px;
+}
+.label {
+	font-weight: 300 !important;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+} 
+.input-group {
+    margin-bottom: 20px;
+} 
+.grid_5{
+	background:none;
+	padding:2em 0 0 0;
+}
+.grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+.grid_3 p{
+  line-height: 2em;
+  color: #888;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+.bs-docs-example {
+  margin: 1em 0;
+}
+h1.t-button,h2.t-button,h3.t-button,h4.t-button,h5.t-button {
+	line-height:1.8em;
+	margin-top:0.5em;
+	margin-bottom: 0.5em;
+}
+li.list-group-item1 {
+  line-height: 2.5em;
+}
+h2.typoh2{
+    margin: 0 0 10px;
+}
+.label {
+    font-size: 53%;
+}
+.w3agile-codes {
+}
+.box1 {
+    display: inline-block;
+    width: 18%;
+    padding: 7px .5em;
+    background: rgba(238, 238, 238, 0.69);
+    margin: 1em 1% 1em 0;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+h3.head-top {
+      font-size: 1.6em;
+    margin: 1em 0;
+    Color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.fontawesome-icon-list a i {
+    margin-right: 10px;
+    font-size: 25px;
+        color: #484747;
+}
+.box1 a {
+    color: #212020;
+}
+
+h3.tittle {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #333; 
+}
+.contact-main-agile-info .main-footer{padding-top:2em}
+input[type="checkbox"]:not(.input-checkbox){display:block}
+
+
+@media (max-width:991px){
+.box1 {
+    display: inline-block;
+    width: 30%;
+}
+}
+@media (max-width:800px){
+
+.box1 {
+    display: inline-block;
+    width: 48%;
+}
+.box1{margin-top:0}
+
+}
+@media (max-width:500px){
+.box1 {
+    display: inline-block;
+    width: 98%;
+}
+
+
+}
+

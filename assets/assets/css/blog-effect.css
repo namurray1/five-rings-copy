@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 0 1em;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid div {
+	position: relative;
+	overflow: hidden;
+	margin: 10px auto;
+	max-height: 360px;
+	width: 98%;
+	
+	background:url(../images/vertical.png);
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid div img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid div figcaption {
+	padding: 0;
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid div figcaption::before,
+.grid div figcaption::after {
+	pointer-events: none;
+}
+
+.grid div figcaption,
+.grid div figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid div figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid div h2 {
+	background:rgba(0,0,0,0.6); padding:0.5em 0;
+	word-spacing: -0.15em; text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; font-size:1.5em; line-height:25px
+}
+
+.grid div h2 strong {
+	font-weight: 700;
+}
+.grid div h2 span{font-size:13px; display:inline-block; margin:0 5px; text-transform:none}
+.grid div h2 i{margin-right:5px; font-size:14px}
+.grid figcaption {position:relative; z-index:3}
+.grid div h2,
+.grid div p {color:#FFFFFF;
+	margin: 0;
+}
+.pattern-bg{background:url(../images/vertical.png); position:absolute; width:100%; height:100%; left:0; z-index:1; top:0}
+
+.grid div p {
+	font-size: 15px!important;
+}
+
+
+div.effect-ruby {
+	background: #000;
+}
+
+div.effect-ruby img {
+	opacity: 0.8;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+div.effect-ruby:hover img {
+	opacity: 0.5;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+div.effect-ruby h2 {
+	margin-top: 20%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+div.effect-ruby p {
+	margin: 1em 2em 0;
+	padding: 1em;
+	border: 1px solid #fff;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0) scale(1.1);
+	transform: translate3d(0,20px,0) scale(1.1);
+} 
+
+div.effect-ruby:hover h2 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+div.effect-ruby:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+
+
+
+.new-grid .gamma-description {
+	 background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+    bottom: 20px;
+ 	margin:0;
+	width:auto;
+	max-height:none;
+    left: 20px;
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: 20px;
+    transition: opacity 0.4s ease-in-out 0s;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+	-ms-transition: opacity 0.4s ease-in-out;
+	-o-transition: opacity 0.4s ease-in-out;
+
+}
