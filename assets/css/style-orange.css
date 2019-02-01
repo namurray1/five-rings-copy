@@ -5757,8 +5757,9 @@ line-height: 26px;
 	color: #ffffff;
 	border: 0;
 	text-align: center;
-	margin-right: 1px;
+	margin-right: 3px;
 	background-color: #222222;
+	width: 14%;
 }
 .sc_schedule_tags i {
 	display: block;
@@ -5770,6 +5771,7 @@ line-height: 26px;
 	background: none!important;
 	color: #FFFFFF!important;
 	border: 0 none!important;
+	
 }
 .schedule li:hover, .schedule li.active {
 	background: #BC0000;
@@ -5787,6 +5789,13 @@ line-height: 26px;
 	text-align: center;
 	height: 180px;
 	background-color: #222222;
+}
+
+.sc_schedule_wrap_alt {
+	color: #ffffff;
+	text-align: center;
+	height: 180px;
+	background-color: #353535;
 }
 .sc_schedule_tags {
 	font-size: 14px;
