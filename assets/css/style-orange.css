@@ -5757,9 +5757,9 @@ line-height: 26px;
 	color: #ffffff;
 	border: 0;
 	text-align: center;
-	margin-right: 3px;
+	margin-right: 2px;
 	background-color: #222222;
-	width: 14%;
+	width: 14.1%;
 }
 .sc_schedule_tags i {
 	display: block;
@@ -5771,7 +5771,6 @@ line-height: 26px;
 	background: none!important;
 	color: #FFFFFF!important;
 	border: 0 none!important;
-	
 }
 .schedule li:hover, .schedule li.active {
 	background: #BC0000;
