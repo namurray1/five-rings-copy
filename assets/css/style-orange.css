@@ -5757,8 +5757,9 @@ line-height: 26px;
 	color: #ffffff;
 	border: 0;
 	text-align: center;
-	margin-right: 1px;
+	margin-right: 2px;
 	background-color: #222222;
+	width: 14.1%;
 }
 .sc_schedule_tags i {
 	display: block;
@@ -5787,6 +5788,13 @@ line-height: 26px;
 	text-align: center;
 	height: 180px;
 	background-color: #222222;
+}
+
+.sc_schedule_wrap_alt {
+	color: #ffffff;
+	text-align: center;
+	height: 180px;
+	background-color: #353535;
 }
 .sc_schedule_tags {
 	font-size: 14px;
