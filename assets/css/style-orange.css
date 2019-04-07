@@ -2898,10 +2898,10 @@ transform:perspective(120px) rotateY(180deg) rotateX(180deg);
 	background-color:#BC0000;
 }
 .col-list .t2 .col-head {
-	background-color: #FFB748;
-}
+	background-color: #BC0000; 
+} 
 .col-list .t3 .col-head {
-	background-color: #F87152;
+	background-color: #BC0000;
 }
 .col-list .t1 li {
 	border-bottom: 1px solid rgba(0, 0, 0, .2);
